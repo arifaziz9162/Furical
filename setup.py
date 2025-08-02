@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="furical",
-    version="0.1.0",
+    version="0.1.1",
     author="MD ARIF AZIZ",
     author_email="arifaziz0125@gmail.com",
     description="A simple calculator package",
@@ -10,7 +10,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     python_requires=">=3.6",
-    entry_point={
+    entry_points={
         "console_scripts": [
             "furical=furical.calculator:main",
         ],
